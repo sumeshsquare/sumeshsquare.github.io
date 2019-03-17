@@ -1,5 +1,103 @@
-<html>
-<body>
-<h3>Sumesh</h3>
-</body>
-</html>
+from flask import Flask
+from flask_cors import CORS
+app = Flask(__name__)
+CORS(app)
+@app.route("/getAccount")
+def getAccount():
+    return ''' 
+[  
+   {  
+      "accountId":4,
+      "careStackAccountID":10069,
+      "accountName":"Eastside Pediatric Dentistry",
+      "status":"Active"
+   },
+   {  
+      "accountId":5,
+      "careStackAccountID":10001,
+      "accountName":"Celebration Dental",
+      "status":"Active"
+   },
+   {  
+      "accountId":6,
+      "careStackAccountID":10026,
+      "accountName":"Ericson Dental",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   },
+   {  
+      "accountId":9,
+      "careStackAccountID":10058,
+      "accountName":"Endodontics",
+      "status":"Active"
+   }
+]
+'''
+
+if __name__ == "__main__":
+    app.run()
