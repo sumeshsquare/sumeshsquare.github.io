@@ -1104,3 +1104,20 @@ input, select, textarea {
 		#header nav {
 			padding: 0 1em;
 		} }
+
+		.button {
+ 			background-color: #c2c2a3;
+  			border: none;
+  			color: black;
+  			padding: 10px;
+  			text-align: center;
+  			text-decoration: none;
+  			display: inline-block;
+  			font-size: 15px;
+  			margin: 4px 2px;
+		}
+		.button1 {border-radius: 2px;}
+		.button2 {border-radius: 4px;}
+		.button3 {border-radius: 8px;}
+		.button4 {border-radius: 12px;}
+		.button5 {border-radius: 50%;}
