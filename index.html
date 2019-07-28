@@ -1,103 +1,52 @@
-from flask import Flask
-from flask_cors import CORS
-app = Flask(__name__)
-CORS(app)
-@app.route("/getAccount")
-def getAccount():
-    return ''' 
-[  
-   {  
-      "accountId":4,
-      "careStackAccountID":10069,
-      "accountName":"Eastside Pediatric Dentistry",
-      "status":"Active"
-   },
-   {  
-      "accountId":5,
-      "careStackAccountID":10001,
-      "accountName":"Celebration Dental",
-      "status":"Active"
-   },
-   {  
-      "accountId":6,
-      "careStackAccountID":10026,
-      "accountName":"Ericson Dental",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   },
-   {  
-      "accountId":9,
-      "careStackAccountID":10058,
-      "accountName":"Endodontics",
-      "status":"Active"
-   }
-]
-'''
 
-if __name__ == "__main__":
-    app.run()
+<!DOCTYPE HTML>
+<!--
+	Aerial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>logger.sumesh</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+		<div id="wrapper">
+			<video autoplay loop id="video-background" muted playsinline>
+				<source src="assets/gears_540_trim10.mp4" type="video/mp4">
+			  </video>
+			<div id="main">
+
+				<!-- Header -->
+					<header id="header">
+						<h2>logger.sumesh</h2>
+						<!-- <p>Tools for data-defined developers</p> -->
+						<p>Devops as an AutoMan</p>
+						<nav>
+							<ul>
+								<!-- <li><a href="about.html" class="icon fa-info"><span class="label">Info</span></a></li> -->
+								<li><a href="https://twitter.com/sumeshskp" target="_blank" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://github.com/sumeshsquare" target="_blank" class="icon fa-github"><span class="label">Github</span></a></li>
+								<li><a href="mailto: sumeshsquare@gmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+							</ul>
+						</nav>
+						<a href="https://drive.google.com/file/d/1qAwXK2SzaUWt_rdHUQw3XzuIdFpQcVJj/view?usp=sharing" target="_blank" >Download Resume</a>
+					</header>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<span class="copyright">&copy; 2019 logger.sumesh Inc. <!-- Design seed: <a href="http://html5up.net">HTML5 UP</a>. --> </span>
+					</footer>
+
+			</div>
+		</div>
+		<script>
+			window.onload = function() { document.body.classList.remove('is-preload'); }
+			window.ontouchmove = function() { return false; }
+			window.onorientationchange = function() { document.body.scrollTop = 0; }
+		</script>
+	</body>
+</html>
